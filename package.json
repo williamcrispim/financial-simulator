@@ -1,0 +1,29 @@
+{
+  "name": "capital-gain-nubank",
+  "version": "1.0.0",
+  "description": "Nubank challenge related to capital gains",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "loglevel": "^1.8.0",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.17.10",
+    "babel-jest": "^28.0.3",
+    "jest": "^28.0.3",
+    "ts-jest": "^28.0.1"
+  }
+}
