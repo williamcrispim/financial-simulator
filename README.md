@@ -1,4 +1,4 @@
-# Capital Gain Challenge - Nubank
+# Financial Simulator
 ### *Node.js*
 
 The objective of this exercise is to implement a command line program (CLI) that calculates the tax
